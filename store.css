@@ -1,0 +1,44 @@
+      .store {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        border-style: groove;
+        position: absolute;
+        right: 0;
+        column-gap: 10px;
+        row-gap: 10px;
+      }
+      .item {
+        border-style: inherit;
+      }
+      .item-top {
+        display: grid;
+        grid-template-columns: 1fr 4fr;
+      }
+      .thumbnail {
+        min-width: 100px;
+        width: 100%;
+        position: sticky;
+        right: 0;
+      }
+      .discription {
+        display: flexbox;
+        margin-top: 0;
+      }
+      .cost {
+        position: sticky;
+        text-align: center;
+      }
+
+      .buy-div {
+        display: flex;
+        flex-direction: column;
+      }
+
+      button {
+        background-color: rgba(0, 128, 0, 0.5);
+      }
+
+      a {
+        text-decoration: none;
+      }

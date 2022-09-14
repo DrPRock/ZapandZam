@@ -1,0 +1,63 @@
+div.welcome {
+  background-color: rgba(77, 170, 199, 0.87);
+  display: inline-block;
+  position: absolute;
+  left: 25%;
+  width: 50%;
+  border-style: none;
+
+}
+div.sub {
+  background-color: rgba(239, 255, 194, 0.87);
+  position:relative;
+  top: 55px;
+  left: 25%;
+  border-style: none;
+  width: 50%;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.925);
+  
+}
+
+.icon-div {
+  display: flex;
+  position: absolute;
+  top: 1;
+  left: 33%;
+  
+  padding-top: 75px;
+
+}
+.icon {
+  width: 50%;
+}
+
+.store {
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+  position: absolute;
+  top: 5px;
+}
+
+.bLink {
+    margin-bottom: -2px;
+    background-color: rgb(241, 224, 144);
+    border: double;
+  }
+
+  .pLink {
+    font-family: monospace;
+    font-size: larger;
+    color: rgb(3, 42, 54);
+    overflow: hidden;
+  }
+
+  a {
+    text-decoration: none;
+  }
