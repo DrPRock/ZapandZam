@@ -89,3 +89,15 @@ body{
       opacity: 1;
     }
   }
+button.pnt {
+  position: relative;
+  left: 7%;
+  top: 9%;
+  width: 100px;
+  background-color: #000;
+  border-radius: 50%;
+}
+a.pntLink{
+  text-decoration: none;
+  color: #fff;
+}
