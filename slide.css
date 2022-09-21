@@ -104,6 +104,7 @@ background: rgba(255, 255, 255, 0.7) !important;
 #s3:target ~ .bullets >*:nth-child(3) {background: rgba(255, 255, 255,   1);}
 #s4:target ~ .bullets >*:nth-child(4) {background: rgba(255, 255, 255,   1);}
 #s5:target ~ .bullets >*:nth-child(5) {background: rgba(255, 255, 255,   1);}
+#s6:target ~ .bullets >*:nth-child(6) {background: rgba(255, 255, 255,   1);}
 /* More slides? Add here more rules */
 
 /* PREV/NEXT CONTAINERS VISIBILITY */
@@ -115,6 +116,7 @@ background: rgba(255, 255, 255, 0.7) !important;
 #s3:target ~ .prevNext >*:nth-child(3) {visibility: visible;}
 #s4:target ~ .prevNext >*:nth-child(4) {visibility: visible;}
 #s5:target ~ .prevNext >*:nth-child(5) {visibility: visible;}
+#s6:target ~ .prevNext >*:nth-child(6) {visibility: visible;}
 /* More slides? Add here more rules */
 
 /* SLIDER ANIMATION POSITIONS */
@@ -124,6 +126,7 @@ background: rgba(255, 255, 255, 0.7) !important;
 #s3:target ~ .slider {transform: translateX(-200%); -webkit-transform: translateX(-200%);}
 #s4:target ~ .slider {transform: translateX(-300%); -webkit-transform: translateX(-300%);}
 #s5:target ~ .slider {transform: translateX(-400%); -webkit-transform: translateX(-400%);}
+#s6:target ~ .slider {transform: translateX(-500%); -webkit-transform: translateX(-500%);}
 /* More slides? Add here more rules */
 
 
@@ -150,7 +153,9 @@ color: rgba(0,0,0,0.8);
 text-decoration: none;
 }
 img{
-height: 70%;
-position: relative;
-top: 15%;
+height: 100%;
+}
+.contact{
+display: flex;
+flex-direction: row;
 }
