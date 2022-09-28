@@ -1,7 +1,6 @@
 .header{
   margin: -8px -8px 0px;
   background-image: linear-gradient(145deg,#620073,#24ecf3,#620073);
-  color: rgb(255, 255, 255);
   text-align: center;
   padding: 10px;
 }
@@ -42,31 +41,49 @@ h2{
   color: wheat;
   text-align: center;
   padding: 10px;
+  opacity: .9;
 }
-.bLink{
+
+.bLink, .aLink{
   width: 100%;
   margin-bottom: -2px;
   background-color: rgb(241, 224, 144);
   border: double;
   opacity: .8;
+  box-shadow: 0 4px 8px rgba(0,0,0,.3);
+  overflow: hidden;
+  position: relative;
 }
-.bLink:hover{
-  opacity: 1;
+
+.bLink:before, .aLink:before{
+  content: "";
+  position: absolute;
+  background: radial-gradient(rgba(255, 254, 248, 0.524), rgba(88, 200, 249, 0.552), rgba(81, 0, 255, 0.392));
+  width: 0px;
+  height: 0px;
+  left: var(--xPos);
+  top: var(--yPos);
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  transition: width .5s, height .5s;
 }
+
+.bLink:hover::before, .aLink:hover::before{
+  width: 500px;
+  height: 500px;
+}
+
 .pLink {
   font-family: monospace;
   font-size: larger;
-  color: rgb(3, 42, 54);
+  color: rgb(0, 0, 0);
   overflow: hidden;
 }
-.icon{
-  width: 100%;
-  max-width: 500px;
-  margin-top: 7%;
-}
+
 a {
   text-decoration: none;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.665);
+  position: relative;
 }
 body{
   background-image: url(Photos/custom/zzz.jpg);
@@ -75,8 +92,96 @@ body{
 .thumb{
   width: 100%;
 }
-ul{
-  text-shadow: 2px 2px 4px rgb(255, 255, 255);
-  font-family:Georgia, 'Times New Roman', Times, serif;
-  font-weight:700;
+
+#hd{
+  width: 100px;
+  right: 5px;
+  top: 0;
+  position: absolute;
+}
+
+.css-slideshow{
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  
+}
+.css-slideshow figure{
+  margin: 0;
+  max-width: 100%;
+  height: 100%;
+  background: #000;
+  position: absolute;
+}
+.css-slideshow img{
+  min-width: 300px;
+}
+.css-slideshow figcaption{
+  position: absolute;
+  top: 0;
+  color: #fff;
+  font-family: monospace;
+  font-size: 1em;
+  padding: 8px 12px;
+  opacity: 0;
+  transition: opacity .5s;
+  background: rgba(0, 0, 0, 0.359);
+}
+.css-slideshow:hover figure figcaption{
+  transition: opacity .5s;
+  opacity: 1;
+}
+.css-slideshow-attr{
+  position: relative;
+  bottom: 20px;
+  max-width: 495px;
+  text-align: right;
+  font-size: .7em;
+  font-style: italic;
+  margin:0 auto;
+}
+.css-slideshow figure{
+  opacity:0;
+}
+figure:nth-child(1) {
+  animation: xfade 48s 42s infinite;
+}
+figure:nth-child(2) {
+  animation: xfade 48s 36s infinite;
+}
+figure:nth-child(3) {
+  animation: xfade 48s 30s infinite;
+}
+figure:nth-child(4) {
+  animation: xfade 48s 24s infinite;
+}
+figure:nth-child(5) {
+  animation: xfade 48s 18s infinite;
+}
+figure:nth-child(6) {
+  animation: xfade 48s 12s infinite;
+}
+figure:nth-child(7) {
+  animation: xfade 48s 6s infinite;
+}
+figure:nth-child(8) {
+  animation: xfade 48s 0s infinite;
+}
+
+@keyframes xfade{
+  0%{
+    opacity: 1;
+  }
+  10.5% {
+    opacity: 1;
+  }
+  12.5%{
+    opacity: 0;
+  }
+  98% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
