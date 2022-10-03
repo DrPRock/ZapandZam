@@ -30,8 +30,11 @@ h2{
   color: darkblue;
 }
 .right{
-  width: 15%;
+  width: 10%;
   float: left;
+  display: grid;
+  height: auto;
+  grid-template-columns: 1fr;
 }
 .footer{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
