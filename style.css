@@ -38,7 +38,7 @@ h2{
 }
 .right{
   width: 10%;
-  float: left;
+  float: right;
   display: grid;
   height: auto;
   grid-template-columns: 1fr;
