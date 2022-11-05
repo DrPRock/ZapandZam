@@ -35,7 +35,6 @@ h2{
 .redbub{
   position: absolute;
   top: 600px;
-  z-index: 1;
 }
 .right{
   width: 10%;
@@ -57,6 +56,7 @@ h2{
   position: fixed;
   bottom: 0px;
   left: 0px;
+  z-index: 1;
 }
 
 .bLink, .aLink{
