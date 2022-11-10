@@ -35,6 +35,8 @@ h2{
 .redbub{
   position: absolute;
   top: 600px;
+  align-items: center;
+  
 }
 .right{
   width: 10%;
