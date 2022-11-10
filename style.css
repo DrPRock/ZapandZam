@@ -33,9 +33,9 @@ h2{
   margin-bottom: -100px;
 }
 .redbub{
-  position: absolute;
-  top: 600px;
-  align-items: center;
+  position: relative;
+  top: 100%;
+  z-index: -1;
   
 }
 .right{
@@ -103,7 +103,6 @@ a {
   position: relative;
 }
 body{
-  display: flexbox;
   background-image: url(Photos/custom/zzz.jpg);
   background-size: contain;
 }
