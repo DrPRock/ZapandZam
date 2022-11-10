@@ -28,9 +28,9 @@ h2{
   align-items: center;
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
   color: darkblue;
-  height: 1200px;
+  height: 200vh;
   min-height: 100vh;
-  margin-bottom: -100px;
+
 }
 iframe{
   position: relative;
