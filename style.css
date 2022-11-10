@@ -32,13 +32,13 @@ h2{
   min-height: 100vh;
   margin-bottom: -100px;
 }
-.redbub iframe{
+#redbub iframe{
   position: relative;
   top: 100%;
   z-index: -1;
 }
 
-.redbub{
+#redbub{
   width: 65%;
 }
 
