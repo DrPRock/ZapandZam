@@ -36,8 +36,12 @@ h2{
   position: relative;
   top: 100%;
   z-index: -1;
-  
 }
+
+.redbub{
+  width: 65%;
+}
+
 .right{
   width: 10%;
   float: right;
