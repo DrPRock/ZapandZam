@@ -25,3 +25,27 @@ btnE1.addEventListener("mouseover", (event) => {
       const picture3 = pictures3[Math.floor(Math.random() * pictures3.length)];
       document.getElementById("thumb3").innerHTML = ('<img class=right1 src="' + picture3 + '"/>');
  
+//bottom images
+      const container = document.querySelector('.scrollContainer')
+
+      function getRandNum(){
+        return Math.floor(Math.random() * 147)
+      }
+      
+      function loadImages(numImages = 12){
+        let i = 0;
+        while(i < numImages){
+          const img = document.createElement('img')
+          img.src = 'pics/' + getRandNum() + '.jpg'
+          container.appendChild(img)
+          i++
+        }
+      }
+      
+ //listen for scroll
+      
+      window.addEventListener('scroll', () => {
+        if(window.scrollY + window.innerHeight >= document.documentElement.scrollHeight){
+          loadImages()
+        }
+      })
