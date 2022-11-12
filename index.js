@@ -9,24 +9,26 @@ btnE1.addEventListener("mouseover", (event) => {
 });
 
 
-      const pictures = ['batEarrings.jpg', 'batNecklace.jpg', 'candyWitchEarrings.jpg'];
-      const picture = pictures[Math.floor(Math.random() * pictures.length)];
-      document.getElementById("thumb").innerHTML = ('<img class=right1 src="' + picture + '"/>');
+//right images
+  const shoulder = document.querySelector('.right')
 
-      const pictures1 = ['bax1.jpg', 'mandala.jpg', 'necklaceStar.jpg'];
-      const picture1 = pictures1[Math.floor(Math.random() * pictures1.length)];
-      document.getElementById("thumb1").innerHTML = ('<img class=right1 src="' + picture1 +  '"/>');
-
-      const pictures2 = ['palmTree.jpg', 'spoonRestA.jpg', 'necklaceSilverRect.jpg'];
-      const picture2 = pictures2[Math.floor(Math.random() * pictures2.length)];
-      document.getElementById("thumb2").innerHTML = ('<img class=right1 src="' + picture2 + '"/>');
-
-      const pictures3 = ['largtrayButterfly.jpg', 'sloth.jpg', 'turtle.jpg'];
-      const picture3 = pictures3[Math.floor(Math.random() * pictures3.length)];
-      document.getElementById("thumb3").innerHTML = ('<img class=right1 src="' + picture3 + '"/>');
+      function getRandNum(){
+        return Math.floor(Math.random() * 147)
+      }
+      
+      function sideImages(numImages = 7){
+        let i = 0;
+        while(i < numImages){
+          const img = document.createElement('img')
+          img.src = 'pics/' + getRandNum() + '.jpg'
+          shoulder.appendChild(img)
+          i++
+        }
+      }
+      sideImages()
  
 //bottom images
-      const container = document.querySelector('.scrollContainer')
+  const container = document.querySelector('.scrollContainer')
 
       function getRandNum(){
         return Math.floor(Math.random() * 147)
