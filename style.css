@@ -67,6 +67,11 @@ iframe{
   grid-template-columns: 1fr;
 }
 
+.right img{
+  width: 100%;
+  margin: 5px;
+}
+
 .footer{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin: 0px;
