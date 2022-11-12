@@ -116,21 +116,12 @@ body{
   background-image: url(Photos/custom/zzz.jpg);
   background-size: contain;
 }
-.thumb{
-  width: 100%;
-}
-
-.right1{
-  width: 100%;
-}
-
 .css-slideshow{
   display: flexbox;
   position: absolute;
   width: 60%;
   max-width: 500px;
   top: 100px;
-  
 }
 .css-slideshow figure{
   margin: 0;
