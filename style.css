@@ -1,9 +1,15 @@
+body{
+  background-image: url(Photos/custom/zzz.jpg);
+  background-size: contain;
+}
+
 .header{
   margin: -8px -8px 0px;
   background-image: linear-gradient(145deg,#620073,#24ecf3,#620073);
   text-align: center;
   padding: 10px;
 }
+
 h2{
   font-size: larger;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -11,24 +17,29 @@ h2{
   text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
   letter-spacing: 3px;
 }
+
 .container{
   width: 100%;
 }
+
 .scrollContainer{
   width: 100%;
   display: flex;
   flex-wrap: wrap;
 }
+
 .scrollContainer img{
   max-width: 300px;
   width: 45%;
   margin: 5px;
   flex: 1 1;
-{
+}
+
 .left{
   width: 15%;
   float: left;
 }
+
 .body{
   width: 65%;
   float: left;
@@ -40,8 +51,8 @@ h2{
   color: darkblue;
   height: 200vh;
   min-height: 100vh;
-
 }
+
 iframe{
   position: relative;
   top: 50%;
@@ -55,6 +66,7 @@ iframe{
   height: auto;
   grid-template-columns: 1fr;
 }
+
 .footer{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin: 0px;
@@ -112,10 +124,7 @@ a {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.665);
   position: relative;
 }
-body{
-  background-image: url(Photos/custom/zzz.jpg);
-  background-size: contain;
-}
+
 .css-slideshow{
   display: flexbox;
   position: absolute;
@@ -123,6 +132,7 @@ body{
   max-width: 500px;
   top: 100px;
 }
+
 .css-slideshow figure{
   margin: 0;
   max-width: 100%;
@@ -130,10 +140,12 @@ body{
   background: #000;
   position: absolute;
 }
+
 .css-slideshow img{
   max-height: 500px;
   min-width: 150px;
 }
+
 .css-slideshow figcaption{
   position: absolute;
   top: 0;
@@ -145,10 +157,12 @@ body{
   transition: opacity .5s;
   background: rgba(0, 0, 0, 0.359);
 }
+
 .css-slideshow:hover figure figcaption{
   transition: opacity .5s;
   opacity: 1;
 }
+
 .css-slideshow-attr{
   position: relative;
   bottom: 20px;
@@ -158,9 +172,11 @@ body{
   font-style: italic;
   margin:0 auto;
 }
+
 .css-slideshow figure{
   opacity:0;
 }
+
 figure:nth-child(1) {
   animation: xfade 48s 42s infinite;
 }
