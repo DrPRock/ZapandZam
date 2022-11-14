@@ -13,7 +13,7 @@ btnE1.addEventListener("mouseover", (event) => {
   const shoulder = document.querySelector('.right')
 
       function getRandNum(){
-        return Math.floor(Math.random() * 147)
+        return Math.floor(Math.random() * 276)
       }
       
       function sideImages(numImages = 7){
@@ -31,7 +31,7 @@ btnE1.addEventListener("mouseover", (event) => {
   const container = document.querySelector('.scrollContainer')
 
       function getRandNum(){
-        return Math.floor(Math.random() * 147)
+        return Math.floor(Math.random() * 276)
       }
       
       function loadImages(numImages = 12){
