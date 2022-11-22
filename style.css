@@ -1,6 +1,7 @@
 body{
   background-image: url(Photos/custom/zzz.jpg);
   background-size: contain;
+  width: 100%;
 }
 
 .header{
@@ -129,7 +130,6 @@ a {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.665);
   position: relative;
 }
-
 .css-slideshow{
   display: flex;
   position: relative;
