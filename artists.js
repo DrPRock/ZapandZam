@@ -1,3 +1,5 @@
+
+
 var Lslide      = document.querySelectorAll('.Lslide'),
     Rslide      = document.querySelectorAll('.Rslide'),
     control     = document.querySelectorAll('.oncontrol'),
