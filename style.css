@@ -53,13 +53,40 @@ h2{
   height: 200vh;
   min-height: 100vh;
 }
-
+.image-179{
+  position: relative;
+  left: 7%;
+  width: 95%;
+}
+.image-178{
+  position: relative;
+  left: 6%;
+}
+.image-176{
+  position: relative;
+  left: 7%;
+}
+.image-173{
+  position: relative;
+  left: 7%;
+}
+.image-175{
+  position: relative;
+  left: 5%;
+}
+.image-172{
+  position: relative;
+  left: 7%;
+}
+.image-177{
+  position: relative;
+  left: 10%;
+}
 iframe{
   position: relative;
-  top: 50%;
+  top: 40%;
   z-index: -1;
 }
-
 .right{
   width: 10%;
   float: right;
