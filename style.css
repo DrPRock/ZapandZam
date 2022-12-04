@@ -1,105 +1,17 @@
 body{
-  background-image: url(Photos/custom/zzz.jpg);
-  background-size: contain;
+  background-image: radial-gradient(#85c400,#00754e,#212780);
   width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .header{
-  margin: -8px -8px 0px;
   background-image: linear-gradient(145deg,#620073,#24ecf3,#620073);
   text-align: center;
-  padding: 10px;
-}
-
-h2{
-  font-size: larger;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color: rgb(255, 255, 255);
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
-  letter-spacing: 3px;
-}
-
-.container{
+  justify-content: center;
+  height: 90px;
   width: 100%;
 }
-
-.scrollContainer{
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.scrollContainer img{
-  max-width: 300px;
-  width: 45%;
-  margin: 5px;
-  flex: 1 1;
-}
-
-.left{
-  width: 15%;
-  float: left;
-}
-
-.body{
-  width: 65%;
-  float: left;
-  padding: 5px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
-  color: darkblue;
-  height: 200vh;
-  min-height: 100vh;
-}
-.image-179{
-  position: relative;
-  left: 7%;
-  width: 95%;
-}
-.image-178{
-  position: relative;
-  left: 6%;
-}
-.image-176{
-  position: relative;
-  left: 7%;
-}
-.image-173{
-  position: relative;
-  left: 7%;
-}
-.image-175{
-  position: relative;
-  left: 5%;
-}
-.image-172{
-  position: relative;
-  left: 7%;
-}
-.image-177{
-  position: relative;
-  left: 10%;
-}
-iframe{
-  position: relative;
-  top: 40%;
-  z-index: -1;
-}
-.right{
-  width: 10%;
-  float: right;
-  display: grid;
-  height: auto;
-  grid-template-columns: 1fr;
-}
-
-.right img{
-  width: 100%;
-  margin: 5px;
-}
-
 .footer{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin: 0px;
@@ -115,41 +27,61 @@ iframe{
   left: 0px;
   z-index: 1;
 }
-
-.bLink, .aLink{
-  width: 100%;
-  margin-bottom: -2px;
-  background-color: rgb(241, 224, 144);
-  border: double;
-  opacity: .8;
-  box-shadow: 0 4px 8px rgba(0,0,0,.3);
-  overflow: hidden;
+h2{
   position: relative;
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+  letter-spacing: 3px;
+  top: 10px;
+
+}
+.btnL{
+  position: relative;
+  top: 50vh;
+  font-size: 30px;
+  background-color: #24ecf316;
+  font-family: 'Times New Roman', Times, serif;
+}
+.btnL button{
+  background-color: rgb(252, 236, 144);
+  height: 70px;
+  width: 100%;
+  border-radius: 2px;
+  color: black;
+  font-size: large;
 }
 
-.bLink:before, .aLink:before{
-  content: "";
-  position: absolute;
-  background: radial-gradient(rgba(255, 254, 248, 0.524), rgba(88, 200, 249, 0.552), rgba(81, 0, 255, 0.392));
-  width: 0px;
-  height: 0px;
-  left: var(--xPos);
-  top: var(--yPos);
-  transform: translate(-50%, -50%);
-  border-radius: 50%;
-  transition: width .5s, height .5s;
+.container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+  color: darkblue;
+  min-height: 100vh;
 }
 
-.bLink:hover::before, .aLink:hover::before{
-  width: 500px;
-  height: 500px;
+.scrollContainer{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  top: 80vh;
 }
 
-.pLink {
-  font-family: monospace;
-  font-size: larger;
-  color: rgb(0, 0, 0);
-  overflow: hidden;
+.scrollContainer img{
+  max-width: 300px;
+  width: 45%;
+  margin: 5px;
+  flex: 1 1;
+}
+
+iframe{
+  position: relative;
+  top: 50vh;
+  z-index: -1;
 }
 
 a {
@@ -158,51 +90,20 @@ a {
   position: relative;
 }
 .css-slideshow{
-  display: flex;
   position: relative;
-  width: 60%;
-  max-width: 500px;
-  min-width: 300px;
-  justify-content: center;
+  float: left;
+  left: 0px;
+
 }
 
 .css-slideshow figure{
   margin: 0;
   max-width: 100%;
-  height: auto;
   position: absolute;
 }
 
 .css-slideshow img{
-  max-height: 500px;
-  min-width: 150px;
-}
-
-.css-slideshow figcaption{
-  position: absolute;
-  top: 0;
-  color: #fff;
-  font-family: monospace;
-  font-size: 1em;
-  padding: 8px 12px;
-  opacity: 0;
-  transition: opacity .5s;
-  background: rgba(0, 0, 0, 0.359);
-}
-
-.css-slideshow:hover figure figcaption{
-  transition: opacity .5s;
-  opacity: 1;
-}
-
-.css-slideshow-attr{
-  position: relative;
-  bottom: 20px;
-  max-width: 495px;
-  text-align: right;
-  font-size: .7em;
-  font-style: italic;
-  margin:0 auto;
+  max-height: 442.77px;
 }
 
 .css-slideshow figure{

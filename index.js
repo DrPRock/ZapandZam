@@ -1,32 +1,4 @@
-const btnE1 = document.querySelector(".bLink");
 
-btnE1.addEventListener("mouseover", (event) => {
-  const x = (event.pageX - btnE1.offsetLeft);
-  const y = (event.pageY - btnE1.offsetTop);
-
-  btnE1.style.setProperty("--xPos", x + "px");
-  btnE1.style.setProperty("--yPos", y + "px");
-});
-
-
-//right images
-  const shoulder = document.querySelector('.right')
-
-      function getRandNum(){
-        return Math.floor(Math.random() * 458)
-      }
-      
-      function sideImages(numImages = 7){
-        let i = 0;
-        while(i < numImages){
-          const img = document.createElement('img')
-          img.src = 'pics/' + getRandNum() + '.jpg'
-          shoulder.appendChild(img)
-          i++
-        }
-      }
-      sideImages()
- 
 //bottom images
   const container = document.querySelector('.scrollContainer')
 
