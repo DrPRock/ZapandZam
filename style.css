@@ -16,7 +16,7 @@ body{
 .footer{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin: 0px;
-  height: 110px;
+  height: 100px;
   width: 100%;
   background-image: linear-gradient(145deg,#24ecf3,#620073);
   color: wheat;
@@ -53,7 +53,14 @@ h2{
   color: black;
   font-size: large;
   margin-bottom: -2px;
+  transform:matrix(1,0,0,1,0,0);
 }
+.btnL button:hover{
+  transform:matrix(1.4,-0.54,0.54,1.4,0,0);
+  transition:transform 0.5s ease-in 0s;
+  font-size: larger;
+}
+
 .btnL p img{
   width: 150px;
   float: right;
@@ -84,6 +91,7 @@ h2{
   width: 45%;
   margin: 5px;
   flex: 1 1;
+  
 }
 
 a {
