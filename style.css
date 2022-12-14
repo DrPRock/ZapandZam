@@ -57,6 +57,7 @@ h2{
 .btnL button:hover{
   transition:transform 0.5s ease-in 0s;
   font-size: larger;
+  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.665);
 }
 
 .btnL p img{
@@ -81,14 +82,60 @@ h2{
   flex-wrap: wrap;
   position: relative;
   top: 150vh;
-  
 }
+@media only screen and (min-width: 2560px) {
+  .scrollContainer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 90vh;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .scrollContainer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 140vh;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .scrollContainer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 150vh;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .scrollContainer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 150vh;
+  }
+}
+@media only screen and (max-width: 280px) {
+  .scrollContainer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 120vh;
+  }
+}
+
 
 .scrollContainer img{
   max-width: 300px;
   width: 45%;
   margin: 5px;
   flex: 1 1;
+  
   
 }
 
@@ -163,7 +210,89 @@ figure:nth-child(9) {
   overflow: hidden;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, .3);
-  top: 200vh;
+}
+@media only screen and (min-width: 280px) {
+  .slider-container{
+    top: 500vh;
+  }
+}
+@media only screen and (min-width: 320px) {
+  .slider-container{
+
+    top: 555vh;
+  }
+}
+@media only screen and (min-width: 360px) {
+  .slider-container{
+
+    top: 380vh;
+  }
+}
+@media only screen and (min-width: 375px) {
+  .slider-container{
+
+    top: 400vh;
+  }
+}
+@media only screen and (min-width: 390px) {
+  .slider-container{
+
+    top: 320vh;
+  }
+}
+@media only screen and (min-width: 412px) {
+  .slider-container{
+
+    top: 300vh;
+  }
+}
+@media only screen and (min-width: 425px) {
+  .slider-container{
+
+    top: 460vh;
+  }
+}
+@media only screen and (min-width: 540px) {
+  .slider-container{
+
+    top: 300vh;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .slider-container{
+
+    top: 200vh;
+  }
+}
+@media only screen and (min-width: 820px) {
+  .slider-container{
+
+    top: 170vh;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .slider-container{
+
+    top: 280vh;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .slider-container{
+
+    top: 235vh;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .slider-container{
+
+    top: 200vh;
+  }
+}
+@media only screen and (min-width: 2560px) {
+  .slider-container{
+
+    top: 125vh;
+  }
 }
 .image-container {
   display: flex;
