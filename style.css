@@ -214,13 +214,13 @@ figure:nth-child(9) {
 }
 @media only screen and (min-width: 390px) {
   .slider-container{
-    top: 300vh;
+    top: 320vh;
   }
 }
 @media only screen and (min-width: 414px) {
   .slider-container{
 
-    top: 300vh
+    top: 320vh
   }
 }
 @media only screen and (min-width: 601px) {
