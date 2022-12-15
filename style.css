@@ -220,7 +220,7 @@ figure:nth-child(9) {
 @media only screen and (min-width: 360px) {
   .slider-container{
 
-    top: 380vh;
+    top: 400vh;
   }
 }
 @media only screen and (min-width: 375px) {
@@ -238,7 +238,7 @@ figure:nth-child(9) {
 @media only screen and (min-width: 412px) {
   .slider-container{
 
-    top: 300vh;
+    top: 320vh;
   }
 }
 @media only screen and (min-width: 425px) {
