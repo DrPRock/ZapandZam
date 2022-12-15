@@ -206,6 +206,7 @@ figure:nth-child(9) {
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, .3);
 }
+/*
 @media only screen and (min-width: 280px) {
   .slider-container{
     top: 500vh;
@@ -232,13 +233,13 @@ figure:nth-child(9) {
 @media only screen and (min-width: 390px) {
   .slider-container{
 
-    top: 340vh;
+    top: 400vh;
   }
 }
 @media only screen and (min-width: 412px) {
   .slider-container{
 
-    top: 320vh;
+    top: 400vh;
   }
 }
 @media only screen and (min-width: 425px) {
@@ -289,6 +290,45 @@ figure:nth-child(9) {
     top: 125vh;
   }
 }
+*/
+
+@media only screen and (min-width: 360px) {
+  .slider-container{
+
+    top: 430vh;
+  }
+}
+@media only screen and (min-width: 414px) {
+  .slider-container{
+
+    top: 300vh;
+  }
+}
+@media only screen and (min-width: 601px) {
+  .slider-container{
+
+    top: 230vh;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .slider-container{
+
+    top: 220vh;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .slider-container{
+
+    top: 240vh;
+  }
+}
+@media only screen and (min-width: 1920px) {
+  .slider-container{
+
+    top: 150vh;
+  }
+}
+
 .image-container {
   display: flex;
   transition: transform 0.4s ease-in-out;
