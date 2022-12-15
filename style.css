@@ -89,7 +89,7 @@ h2{
     display: flex;
     flex-wrap: wrap;
     position: relative;
-    top: 90vh;
+    top: 100vh;
   }
 }
 @media only screen and (max-width: 425px) {
@@ -199,12 +199,13 @@ figure:nth-child(9) {
   }
 }
 .slider-container{
-  position: absolute;
+  position: sticky;
   max-width: 390px;
   height: 390px;
   overflow: hidden;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, .3);
+  top: 470%;
 }
 /*
 @media only screen and (min-width: 280px) {
@@ -295,37 +296,43 @@ figure:nth-child(9) {
 @media only screen and (min-width: 360px) {
   .slider-container{
 
-    top: 350vh;
+    top: 480%;
   }
 }
 @media only screen and (min-width: 414px) {
   .slider-container{
 
-    top: 300vh;
+    top: 430%;
   }
 }
 @media only screen and (min-width: 601px) {
   .slider-container{
 
-    top: 230vh;
+    top: 310%;
   }
 }
 @media only screen and (min-width: 1024px) {
   .slider-container{
 
-    top: 220vh;
+    top: 220%;
   }
 }
 @media only screen and (min-width: 1280px) {
   .slider-container{
 
-    top: 240vh;
+    top: 240%;
   }
 }
 @media only screen and (min-width: 1920px) {
   .slider-container{
 
-    top: 150vh;
+    top: 150%;
+  }
+}
+@media only screen and (min-width: 2560px) {
+  .slider-container{
+
+    top: 170%;
   }
 }
 
