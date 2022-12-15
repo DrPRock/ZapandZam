@@ -219,31 +219,26 @@ figure:nth-child(9) {
 }
 @media only screen and (min-width: 414px) {
   .slider-container{
-
     top: 320vh
   }
 }
 @media only screen and (min-width: 601px) {
   .slider-container{
-
     top: 200vh;
   }
 }
 @media only screen and (min-width: 1024px) {
   .slider-container{
-
     top: 220vh;
   }
 }
 @media only screen and (min-width: 1280px) {
   .slider-container{
-
     top: 240vh;
   }
 }
 @media only screen and (min-width: 1920px) {
   .slider-container{
-
     top: 150vh;
   }
 }
