@@ -199,143 +199,61 @@ figure:nth-child(9) {
   }
 }
 .slider-container{
-  position: sticky;
+  position: absolute;
   max-width: 390px;
   height: 390px;
   overflow: hidden;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, .3);
-  top: 470%;
-}
-/*
-@media only screen and (min-width: 280px) {
-  .slider-container{
-    top: 500vh;
-  }
-}
-@media only screen and (min-width: 320px) {
-  .slider-container{
-
-    top: 555vh;
-  }
+  top: 470vh;
 }
 @media only screen and (min-width: 360px) {
   .slider-container{
-
-    top: 400vh;
-  }
-}
-@media only screen and (min-width: 375px) {
-  .slider-container{
-
     top: 400vh;
   }
 }
 @media only screen and (min-width: 390px) {
   .slider-container{
-
-    top: 400vh;
-  }
-}
-@media only screen and (min-width: 412px) {
-  .slider-container{
-
-    top: 400vh;
-  }
-}
-@media only screen and (min-width: 425px) {
-  .slider-container{
-
-    top: 460vh;
-  }
-}
-@media only screen and (min-width: 540px) {
-  .slider-container{
-
     top: 300vh;
-  }
-}
-@media only screen and (min-width: 768px) {
-  .slider-container{
-
-    top: 200vh;
-  }
-}
-@media only screen and (min-width: 820px) {
-  .slider-container{
-
-    top: 170vh;
-  }
-}
-@media only screen and (min-width: 1024px) {
-  .slider-container{
-
-    top: 280vh;
-  }
-}
-@media only screen and (min-width: 1280px) {
-  .slider-container{
-
-    top: 235vh;
-  }
-}
-@media only screen and (min-width: 1440px) {
-  .slider-container{
-
-    top: 200vh;
-  }
-}
-@media only screen and (min-width: 2560px) {
-  .slider-container{
-
-    top: 125vh;
-  }
-}
-*/
-
-@media only screen and (min-width: 360px) {
-  .slider-container{
-
-    top: 480%;
   }
 }
 @media only screen and (min-width: 414px) {
   .slider-container{
 
-    top: 430%;
+    top: 300vh
   }
 }
 @media only screen and (min-width: 601px) {
   .slider-container{
 
-    top: 310%;
+    top: 200vh;
   }
 }
 @media only screen and (min-width: 1024px) {
   .slider-container{
 
-    top: 220%;
+    top: 220vh;
   }
 }
 @media only screen and (min-width: 1280px) {
   .slider-container{
 
-    top: 240%;
+    top: 240vh;
   }
 }
 @media only screen and (min-width: 1920px) {
   .slider-container{
 
-    top: 150%;
+    top: 150vh;
   }
 }
 @media only screen and (min-width: 2560px) {
   .slider-container{
-
-    top: 170%;
+    top: 170vh;
   }
 }
-
+  
+  
 .image-container {
   display: flex;
   transition: transform 0.4s ease-in-out;
@@ -349,7 +267,7 @@ figure:nth-child(9) {
   top: 50%;
   transform: translateY(-50%);
   color: white;
-  font-size: 20px;
+  font-size: 30px;
   opacity: 50%;
   cursor: pointer;
 }
