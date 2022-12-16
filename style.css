@@ -9,14 +9,14 @@ body{
   background-image: linear-gradient(145deg,#620073,#24ecf3,#620073);
   text-align: center;
   justify-content: center;
-  height: 100px;
+  height: 6.25rem;
   width: 100%;
-  margin-bottom: 2px;
+  margin-bottom: .125rem;
 }
 .footer{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin: 0px;
-  height: 100px;
+  height: 6.25rem;
   width: 100%;
   background-image: linear-gradient(145deg,#24ecf3,#620073);
   color: wheat;
@@ -30,24 +30,24 @@ body{
 }
 h2{
   position: relative;
-  font-size: 30px;
+  font-size: 1.875rem;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: rgb(255, 255, 255);
   text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
-  letter-spacing: 3px;
-  top: 10px;
+  letter-spacing: .1875rem;
+  top: .625rem;
 
 }
 .btnL{
   position: relative;
   top: 50vh;
-  font-size: 30px;
+  font-size: 1.875rem;
   background-color: #24ecf316;
   font-family: 'Times New Roman', Times, serif;
 }
 .btnL button{
   background-color: rgb(252, 236, 144);
-  height: 70px;
+  height: 4.375rem;
   width: 100%;
   border-radius: 2px;
   color: black;
@@ -61,7 +61,7 @@ h2{
 }
 
 .btnL p img{
-  width: 150px;
+  width: 9.375rem;
   float: right;
 }
 
@@ -85,53 +85,33 @@ h2{
 }
 @media only screen and (min-width: 2560px) {
   .scrollContainer{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    position: relative;
     top: 100vh;
   }
 }
 @media only screen and (max-width: 425px) {
   .scrollContainer{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    position: relative;
     top: 140vh;
   }
 }
 @media only screen and (max-width: 375px) {
   .scrollContainer{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    position: relative;
     top: 150vh;
   }
 }
 @media only screen and (max-width: 320px) {
   .scrollContainer{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    position: relative;
     top: 150vh;
   }
 }
 @media only screen and (max-width: 280px) {
   .scrollContainer{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    position: relative;
     top: 120vh;
   }
 }
 .scrollContainer img{
   max-width: 300px;
   width: 45%;
-  margin: 5px;
+  margin: .32rem;
   flex: 1 1;
 }
 a {
@@ -205,46 +185,46 @@ figure:nth-child(9) {
   overflow: hidden;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, .3);
-  top: 470vh;
+  top: 170rem;
 }
 @media only screen and (min-width: 360px) {
   .slider-container{
-    top: 400vh;
+    top: 160rem;
   }
 }
 @media only screen and (min-width: 390px) {
   .slider-container{
-    top: 320vh;
+    top: 160rem;
   }
 }
 @media only screen and (min-width: 414px) {
   .slider-container{
-    top: 320vh
+    top: 160rem;
   }
 }
-@media only screen and (min-width: 601px) {
+@media only screen and (min-width: 540px) {
   .slider-container{
-    top: 200vh;
+    top: 140rem;
   }
 }
 @media only screen and (min-width: 1024px) {
   .slider-container{
-    top: 220vh;
+    top: 100rem;
   }
 }
 @media only screen and (min-width: 1280px) {
   .slider-container{
-    top: 240vh;
+    top: 100rem;
   }
 }
 @media only screen and (min-width: 1920px) {
   .slider-container{
-    top: 150vh;
+    top: 100rem;
   }
 }
 @media only screen and (min-width: 2560px) {
   .slider-container{
-    top: 170vh;
+    top: 100rem;
   }
 }
   
@@ -262,7 +242,7 @@ figure:nth-child(9) {
   top: 50%;
   transform: translateY(-50%);
   color: white;
-  font-size: 30px;
+  font-size: 2rem;
   opacity: 50%;
   cursor: pointer;
 }
