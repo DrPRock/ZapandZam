@@ -3,7 +3,7 @@
   const container = document.querySelector('.scrollContainer')
 
       function getRandNum(){
-        return Math.floor(Math.random() * 460)
+        return Math.floor(Math.random() * 463)
       }
       
       function loadImages(numImages = 12){
