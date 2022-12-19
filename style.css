@@ -81,31 +81,31 @@ h2{
   display: flex;
   flex-wrap: wrap;
   position: relative;
-  top: 150vh;
+  top: 80vh;
 }
 @media only screen and (min-width: 2560px) {
   .scrollContainer{
-    top: 100vh;
+    top: 90vh;
   }
 }
 @media only screen and (max-width: 425px) {
   .scrollContainer{
-    top: 140vh;
+    top: 80vh;
   }
 }
 @media only screen and (max-width: 375px) {
   .scrollContainer{
-    top: 150vh;
+    top: 70vh;
   }
 }
 @media only screen and (max-width: 320px) {
   .scrollContainer{
-    top: 150vh;
+    top: 70vh;
   }
 }
 @media only screen and (max-width: 280px) {
   .scrollContainer{
-    top: 120vh;
+    top: 80vh;
   }
 }
 .scrollContainer img{
@@ -177,81 +177,4 @@ figure:nth-child(9) {
   100% {
     opacity: 1;
   }
-}
-.slider-container{
-  position: absolute;
-  max-width: 390px;
-  height: 390px;
-  overflow: hidden;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, .3);
-  top: 170rem;
-}
-@media only screen and (min-width: 360px) {
-  .slider-container{
-    top: 160rem;
-  }
-}
-@media only screen and (min-width: 390px) {
-  .slider-container{
-    top: 160rem;
-  }
-}
-@media only screen and (min-width: 414px) {
-  .slider-container{
-    top: 160rem;
-  }
-}
-@media only screen and (min-width: 540px) {
-  .slider-container{
-    top: 140rem;
-  }
-}
-@media only screen and (min-width: 1024px) {
-  .slider-container{
-    top: 100rem;
-  }
-}
-@media only screen and (min-width: 1280px) {
-  .slider-container{
-    top: 100rem;
-  }
-}
-@media only screen and (min-width: 1920px) {
-  .slider-container{
-    top: 100rem;
-  }
-}
-@media only screen and (min-width: 2560px) {
-  .slider-container{
-    top: 100rem;
-  }
-}
-  
-  
-.image-container {
-  display: flex;
-  transition: transform 0.4s ease-in-out;
-}
-.image-container img{
-  height: 390px;
-  width: 390px;
-}
-.btn{
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  color: white;
-  font-size: 2rem;
-  opacity: 50%;
-  cursor: pointer;
-}
-.btn.prev{
-  left: 10px;
-}
-.btn.next{
-  right: 10px;
-}
-.btn:hover{
-  opacity: 1;
 }
