@@ -81,32 +81,7 @@ h2{
   display: flex;
   flex-wrap: wrap;
   position: relative;
-  top: 80vh;
-}
-@media only screen and (min-width: 2560px) {
-  .scrollContainer{
-    top: 90vh;
-  }
-}
-@media only screen and (max-width: 425px) {
-  .scrollContainer{
-    top: 80vh;
-  }
-}
-@media only screen and (max-width: 375px) {
-  .scrollContainer{
-    top: 70vh;
-  }
-}
-@media only screen and (max-width: 320px) {
-  .scrollContainer{
-    top: 70vh;
-  }
-}
-@media only screen and (max-width: 280px) {
-  .scrollContainer{
-    top: 80vh;
-  }
+  top: 50vh;
 }
 .scrollContainer img{
   max-width: 300px;

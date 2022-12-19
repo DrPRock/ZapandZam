@@ -6,7 +6,7 @@
         return Math.floor(Math.random() * 463)
       }
       
-      function loadImages(numImages = 12){
+      function loadImages(numImages = 20){
         let i = 0;
         while(i < numImages){
           const img = document.createElement('img')
