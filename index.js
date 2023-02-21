@@ -18,11 +18,16 @@
       loadImages()
  //listen for scroll
       
-      window.addEventListener('scroll', () => {
-        if(window.scrollY + window.innerHeight >= document.documentElement.scrollHeight){
-          loadImages()
-        }
-      })
+     let debounceTimeoutId;
+
+window.addEventListener('scroll', () => {
+  clearTimeout(debounceTimeoutId);
+  debounceTimeoutId = setTimeout(() => {
+    if (window.scrollY + window.innerHeight >= document.documentElement.scrollHeight) {
+      loadImages();
+    }
+  }, 100);
+}, { passive: true });
 //button color
 const containerE1 = document.querySelector(".btnL");
 
