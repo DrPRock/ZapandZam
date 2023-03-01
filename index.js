@@ -19,7 +19,7 @@
  //listen for scroll
       
     window.addEventListener('scroll', () => {
-        if(window.scrollY + window.innerHeight >= document.documentElement.scrollHeight){
+        if((window.scrollY + window.innerHeight) >= (document.documentElement.scrollHeight * 0.95)){
           loadImages()
         }
       })
