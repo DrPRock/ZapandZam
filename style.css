@@ -78,6 +78,10 @@ h2{
   float: right;
 }
 
+article{
+  border-style: groove;
+  background: whitesmoke;
+}
 .container{
   width: 100%;
   display: flex;
@@ -105,7 +109,7 @@ h2{
 }
 a {
   text-decoration: none;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.665);
+  color: black;
   position: relative;
 }
 .css-slideshow{
