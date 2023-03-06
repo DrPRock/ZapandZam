@@ -63,7 +63,7 @@ h2{
 }
 .btnL{
   position: relative;
-  top: 50vh;
+  top: 300px;
   font-size: 1.875rem;
   background-color: #24ecf316;
   font-family: 'Times New Roman', Times, serif;
@@ -89,6 +89,8 @@ article p img{
 }
 
 article{
+  position: relative;
+  top: 300px;
   border-style: groove;
   background: whitesmoke;
 }
