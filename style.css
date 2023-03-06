@@ -5,6 +5,16 @@ body{
   padding: 0;
 }
 
+.reviews{
+  position: relative;
+  top: 300px;
+
+}
+.reviews img{
+  width: 100%;
+  margin: 2px auto;
+}
+
 .header{
  background-image: linear-gradient(
         to right, #620073,#24ecf3,#620073);
@@ -73,7 +83,7 @@ h2{
   text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.665);
 }
 
-.btnL p img{
+article p img{
   width: 9.375rem;
   float: right;
 }
@@ -81,16 +91,6 @@ h2{
 article{
   border-style: groove;
   background: whitesmoke;
-}
-.container{
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
-  color: rgb(0, 0, 0);
-  min-height: 100vh;
 }
 
 .scrollContainer{
