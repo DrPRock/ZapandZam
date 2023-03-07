@@ -93,6 +93,8 @@ article{
   top: 300px;
   border-style: groove;
   background: whitesmoke;
+  font-family: cursive;
+  font-size: large;
 }
 
 .scrollContainer{
