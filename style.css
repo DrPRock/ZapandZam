@@ -19,7 +19,7 @@ body{
  background-image: linear-gradient(
         to right, #620073,#24ecf3,#620073);
     background-size: 400% 400%;
-    animation: animate-background 10s infinite ease-in-out;
+    animation: animate-background 35s infinite ease-in-out;
     text-align: center;
     height: 6.25rem;
     width: 100%;
@@ -51,6 +51,11 @@ body{
   left: 0px;
   z-index: 1;
 }
+
+li{
+    list-style: none;
+  }
+
 h2{
   position: relative;
   font-size: 1.875rem;
@@ -62,27 +67,64 @@ h2{
 
 }
 .btnL{
-  position: relative;
-  top: 300px;
-  font-size: 1.875rem;
-  background-color: #24ecf316;
-  font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    top: 300px;
+    font-size: 1.875rem;
+    background-color: #24ecf316;
+    font-family: 'Times New Roman', Times, serif; 
+  }
+  .btnL button{
+    transition: 2.3s;
+    height: 4.375rem;
+    width: 100%;
+    border-radius: 2px;
+    color: black;
+    font-size: large;
+    margin-bottom: -2px;
+  }
+  .btnL button:nth-child(3){
+    will-change: transform;
+    color: aliceblue;
+    background-color: rgba(134, 0, 0, 0.893);
+    border:5px double silver;
 }
-.btnL button{
-  background-color: rgb(252, 236, 144);
-  height: 4.375rem;
-  width: 100%;
-  border-radius: 2px;
-  color: black;
-  font-size: large;
-  margin-bottom: -2px;
+  .btnL button:nth-child(4){
+    will-change: transform;
+    background-color: rgb(255, 0, 0);
+    border: 5px double white;
 }
-.btnL button:hover{
-  transition:transform 0.5s ease-in 0s;
-  font-size: larger;
-  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.665);
+  .btnL button:nth-child(5){
+    will-change: transform;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: 5px double silver;
 }
+  .btnL button:nth-child(1){
+    will-change: transform;
+    background-color: gold;
+    border: 5px double white;
+}
+   .btnL button:nth-child(2){
+    will-change: transform;
+    background-color: silver;
+    border: 5px double white;
+}
+     
+  .btnL button:hover{
+    transition:transform 5.5s ease-in 3s;
+    font-size: larger;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.665);
+    animation:bounce-in 2.3s ease 0s 1 normal;
+  }
 
+  @keyframes bounce-in {
+    0%{ opacity: 0; transform: scale(.3); }
+    40%{ opacity: 1; transform: scale(1.0); }
+    67%{ transform: scale(0.987); }
+    100%{ transform: scale(1); }
+    }
+  
+  
 article p img{
   width: 9.375rem;
   float: right;
