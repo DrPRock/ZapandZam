@@ -36,6 +36,23 @@ body{
         background-position: 0% 50%;
     }
 }
+.header h2{
+    animation:newspaper 2s ease 1s 1 normal;  }
+    @keyframes newspaper {
+      0%{ opacity: 0; transform: scale3d(0.3, 0.3, 0.3) rotate(720deg); }
+      100%{ opacity: 1; transform: scale3d(1,1,1) rotate(0deg); }
+      } 
+    @keyframes animate-background {
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 200% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
 .footer{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin: 0px;
@@ -109,22 +126,12 @@ h2{
     background-color: silver;
     border: 5px double white;
 }
-     
-  .btnL button:hover{
+ .btnL button:hover{
     transition:transform 5.5s ease-in 3s;
     font-size: larger;
     text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.665);
-    animation:bounce-in 2.3s ease 0s 1 normal;
+    box-shadow:0px 0px 50px 25px #c369ff8f inset;
   }
-
-  @keyframes bounce-in {
-    0%{ opacity: 0; transform: scale(.3); }
-    40%{ opacity: 1; transform: scale(1.0); }
-    67%{ transform: scale(0.987); }
-    100%{ transform: scale(1); }
-    }
-  
-  
 article p img{
   width: 9.375rem;
   float: right;
