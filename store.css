@@ -13,6 +13,9 @@
     margin: 10px auto;  
     transform:matrix(1,0,0,1,0,0);  
   }
+.item button{
+    background-color: rgba(0, 255, 255, 0.355);
+  }
 .item:hover{
    transform:matrix(1.1,0,0,1.1,0,0);
    transition:transform 4s ease 0s;
