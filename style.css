@@ -78,11 +78,21 @@ h2{
   font-size: 1.875rem;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: rgb(255, 255, 255);
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px magenta, 0 0 70px magenta, 0 0 80px magenta, 0 0 100px magenta, 0 0 150px magenta;
   letter-spacing: .1875rem;
   top: .625rem;
-
+  animation:glow 2s ease-in-out infinite alternate;
 }
+
+@keyframes glow {
+    0% {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px magenta, 0 0 70px magenta, 0 0 80px magenta, 0 0 100px magenta, 0 0 150px magenta;
+    }
+    100% {
+      text-shadow: 0 0 20px #fff, 0 0 30px #fff, 0 0 40px fuchsia, 0 0 70px fuchsia, 0 0 80px fuchsia, 0 0 100px fuchsia, 0 0 150px fuchsia, 0 0 200px fuchsia;
+    }
+  }
+
 .btnL{
     position: relative;
     top: 300px;
