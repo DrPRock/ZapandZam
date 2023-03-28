@@ -1,4 +1,12 @@
+//new featured link
+const imgElements = document.querySelectorAll('.newChild img');
 
+imgElements.forEach(img => {
+  img.addEventListener('click', function() {
+    const url = this.getAttribute('data-url');
+    window.open(url, '_blank');
+  });
+});
 //bottom images
   const container = document.querySelector('.scrollContainer')
 
