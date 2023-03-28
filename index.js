@@ -29,3 +29,15 @@
     }
   }, 2);
 }, { passive: true });
+
+// Get all taglines and hide them
+
+    const taglines = document.querySelectorAll('.tagline');
+    taglines.forEach(tagline => {
+      tagline.style.display = 'none';
+});
+
+// Pick a random tagline and show it
+
+    const randomIndex = Math.floor(Math.random() * taglines.length);
+    taglines[randomIndex].style.display = 'block';
