@@ -64,13 +64,14 @@ body{
   padding: 0px;
   opacity: .9;
   position: fixed;
-  bottom: 2px;
+  bottom: 0px;
   left: 0px;
   z-index: 1;
 }
 
 li{
-    list-style: none;
+  list-style: none;
+  bottom: 2px;
   }
 
 h2{
