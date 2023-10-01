@@ -11,7 +11,7 @@ imgElements.forEach(img => {
   const container = document.querySelector('.scrollContainer')
 
       function getRandNum(){
-        return Math.floor(Math.random() * 596)
+        return Math.floor(Math.random() * 597)
       }
       
       function loadImages(numImages = 20){
