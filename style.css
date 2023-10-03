@@ -16,7 +16,7 @@ body{
 }
 
 @media (max-width: 767px) {
-  .reviews {
+  .reviews img{
     display: none;
   }
 }
