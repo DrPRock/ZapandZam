@@ -358,7 +358,7 @@ figure:nth-child(9) {
   .clock span{
   width: 50px;
   height: 40px;
-  background: radial-gradient(rgb(90, 205, 117),rgb(90, 205, 117),white) ;
+  background:  radial-gradient(rgba(90, 205, 117, 0.425),rgba(90, 205, 117, 0.101),rgba(255, 255, 255, 0.189)) ;
   opacity: .8;
   color: white;
   display: flex;
