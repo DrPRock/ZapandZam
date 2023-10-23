@@ -339,3 +339,44 @@ figure:nth-child(9) {
       margin-left: 10px;
       font-size: 16px;
     }
+
+  .clock{
+  display: flex;
+  width: 100%;
+ 
+  z-index: -1;
+  left: auto;
+  right: auto;
+  }
+
+  .clock div{
+  margin: 0px;
+  position: relative;
+  
+  }
+
+  .clock span{
+  width: 50px;
+  height: 40px;
+  background: radial-gradient(rgb(90, 205, 117),rgb(90, 205, 117),white) ;
+  opacity: .8;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+  border-radius: 50%;
+  box-shadow: #ffffff;
+  }
+
+
+  .clock #ampm{
+  bottom: -6px;
+  right: 0;
+  position: absolute;
+  width: 30px;
+  height: 15px;
+  font-size: 10px;
+  background: rgb(0, 0, 0);
+  }
