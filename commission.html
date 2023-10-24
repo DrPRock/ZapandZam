@@ -75,6 +75,15 @@ img{
 }
         
     </style>
+
+<script>
+            // Parallax effect
+      window.addEventListener("scroll", function() {
+        var y = window.scrollY;
+        document.querySelector(".scrollContainer").style.transform = "translateY(" + y * -0.1 + "px)";
+      });
+    </script>
+    
 </head>
 <body>
     <div class="container">
