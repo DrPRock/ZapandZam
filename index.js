@@ -49,3 +49,9 @@ imgElements.forEach(img => {
 
     const randomIndex = Math.floor(Math.random() * taglines.length);
     taglines[randomIndex].style.display = 'block';
+
+// Parallax effect
+window.addEventListener("scroll", function() {
+  var y = window.scrollY;
+  document.querySelector(".css-slideshow").style.transform = "translateY(" + y * -0.5 + "px)";
+});
