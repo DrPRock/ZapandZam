@@ -385,7 +385,6 @@ figure:nth-child(9) {
     float: right;
     position: relative;
     top: 0;
-    right: 0;
     z-index: 100;
   }
   
