@@ -161,16 +161,18 @@ article{
   margin: .32rem auto;
   flex: 1 1;
 }
+
 a {
   text-decoration: none;
   color: black;
   position: relative;
   bottom: 2px;
 }
-.css-slideshow{
 
+.css-slideshow{
   flex-basis: 100%;
 }
+
 .css-slideshow figure{
   margin: 0;
   position: absolute;
@@ -178,11 +180,17 @@ a {
   left: 50%;
   transform: translateX(-50%);
 }
+
 .css-slideshow img{
   top: 0px;
   max-height: 300px;
   max-width: 300px;
 }
+
+.image-172 {
+  transform: translateX(-10%);
+}
+
 figure:nth-child(1) {
   animation: xfade 54s 48s infinite;
 }
