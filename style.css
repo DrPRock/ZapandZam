@@ -180,16 +180,14 @@ a {
   left: 50%;
   transform: translateX(-50%);
 }
-
 .css-slideshow img{
   top: 0px;
   max-height: 300px;
   max-width: 300px;
 }
-
 .image-172 {
   transform: translate(-10%, 50%);
-
+}
 figure:nth-child(1) {
   animation: xfade 54s 48s infinite;
 }
