@@ -188,8 +188,7 @@ a {
 }
 
 .image-172 {
-  transform: translateX(-10%);
-}
+  transform: translate(-10%, 50%);
 
 figure:nth-child(1) {
   animation: xfade 54s 48s infinite;
