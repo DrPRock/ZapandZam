@@ -284,7 +284,6 @@ figure:nth-child(9) {
       scroll-behavior: smooth;
       overflow-y: hidden;
       scroll-snap-type: x mandatory; 
-      top: 300px;
       position: relative;
     }
     .newSec::-webkit-scrollbar {
