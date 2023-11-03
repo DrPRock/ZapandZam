@@ -4,7 +4,18 @@ body{
   margin: 0;
   padding: 0;
 }
+.featured {
+  top: 300px;
+  display: block;
+  margin: 0 auto;
+  max-width: 900px;
+}
 
+@media (max-width: 900px) {
+  .featured {
+    max-width: 100%;
+  }
+}
 .reviews{
   position: relative;
   top: 300px;
