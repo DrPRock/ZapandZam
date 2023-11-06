@@ -1,5 +1,5 @@
 body{
-  background-image: radial-gradient(#85c400,#00754e,#212780);
+  background-image: radial-gradient(#8c775e5d ,#05f2dab4 ,#05aff282,#056cf284,#020f598a);
   width: 100%;
   margin: 0;
   padding: 0;
@@ -111,13 +111,13 @@ h2{
     font-size: large;
     margin-bottom: -2px;
   }
-  .btnL button:nth-child(3){
+  .btnL button:nth-child(4){
     will-change: transform;
     color: aliceblue;
     background-color: rgba(134, 0, 0, 0.893);
     border:5px double silver;
 }
-  .btnL button:nth-child(4){
+  .btnL button:nth-child(5){
     will-change: transform;
     background-color: rgb(255, 0, 0);
     border: 5px double white;
@@ -133,7 +133,7 @@ h2{
     background-color: gold;
     border: 5px double white;
 }
-   .btnL button:nth-child(2){
+   .btnL button:nth-child(3){
     will-change: transform;
     background-color: silver;
     border: 5px double white;
