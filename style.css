@@ -155,6 +155,8 @@ article{
   border-style: groove;
   font-family: Helvetica;
   font-size: large;
+  display: flex;
+  flex-direction: column;
 }
 .card {
   border-style: groove;
