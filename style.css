@@ -153,11 +153,32 @@ article{
   position: relative;
   top: 300px;
   border-style: groove;
-  background: whitesmoke;
   font-family: Helvetica;
   font-size: large;
 }
-
+.card {
+  border-style: groove;
+  width: 95%;
+  margin: 0 auto;
+  padding: 0 3px;
+  border-radius: 2px;
+  box-shadow: #000;
+  display: flex;
+  flex-basis: 95%;
+  flex-grow: 1;
+  flex-direction: column;
+  
+}
+@media (min-width: 768px) {
+  .card {
+    flex-basis: 70%;
+    width: 70%;
+  }
+}
+.card > p > img {
+  width: 9rem;
+  float: right;
+}
 .scrollContainer{
   width: 100%;
   display: flex;
