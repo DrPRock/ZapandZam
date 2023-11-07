@@ -380,6 +380,10 @@ figure:nth-child(9) {
     height: 7px;
     background-color: #000000aa;
   }
+.border:nth-child(1) {
+    position: relative;
+    top: 0px;
+}
 .border:nth-child(2) {
     position: relative;
     top: 300px;
