@@ -101,7 +101,7 @@ h2{
     top: 300px;
     font-size: 1.875rem;
     font-family: 'Times New Roman', Times, serif; 
-    width: 20rem;    
+    width: 100%;    
     margin: 0 auto;
     display: flex;
     flex-direction: column;
