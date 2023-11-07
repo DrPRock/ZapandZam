@@ -100,17 +100,21 @@ h2{
     position: relative;
     top: 300px;
     font-size: 1.875rem;
-    background-color: #24ecf316;
     font-family: 'Times New Roman', Times, serif; 
+    width: 20rem;    
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .btnL button{
     transition: 2.3s;
     height: 4.375rem;
-    width: 100%;
-    border-radius: 2px;
+    width: 20rem;
+    border-radius: 45%;
     color: black;
     font-size: large;
-    margin-bottom: -2px;
+    margin-bottom: 2px;
   }
   .btnL button:nth-child(4){
     will-change: transform;
@@ -118,12 +122,12 @@ h2{
     background-color: rgba(134, 0, 0, 0.893);
     border:5px double silver;
 }
-  .btnL button:nth-child(5){
+  .btnL button:nth-child(6){
     will-change: transform;
     background-color: rgb(255, 0, 0);
     border: 5px double white;
 }
-  .btnL button:nth-child(5){
+  .btnL button:nth-child(7){
     will-change: transform;
     background-color: rgb(0, 0, 0);
     color: white;
