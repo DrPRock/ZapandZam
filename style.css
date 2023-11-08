@@ -6,7 +6,6 @@ body{
   scroll-behavior: smooth;
 }
 .featured {
-  top: 300px;
   display: block;
   margin: 0 auto;
   max-width: 900px;
