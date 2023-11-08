@@ -120,6 +120,9 @@ iframe {
     font-size: large;
     margin-bottom: 2px;
   }
+  .btnL #product-component-1699323613648 {
+    width: 100%
+  }
   .btnL button:nth-child(4){
     will-change: transform;
     color: aliceblue;
