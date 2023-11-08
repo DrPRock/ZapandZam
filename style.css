@@ -9,6 +9,8 @@ body{
   display: block;
   margin: 0 auto;
   max-width: 900px;
+  position: relative;
+  top: 300px
 }
 
 @media (max-width: 900px) {
