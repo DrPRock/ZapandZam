@@ -342,6 +342,9 @@ figure:nth-child(9) {
     .newChild > img {
       width: 300px;
     }
+  .newChild > img:Hover {
+      cursor: pointer;
+    }
     .newText {
       position: sticky;
       top: 0;
