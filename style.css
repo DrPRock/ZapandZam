@@ -320,7 +320,6 @@ figure:nth-child(9) {
  /*newSection div*/
 
     .newSec {
-      top: 300px;
       width: 100%;
       height: 300px;
       overflow-x: scroll;
