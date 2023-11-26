@@ -10,6 +10,7 @@ article p img{
 }
 
 article{
+  top: 300px;
   margin: 0 auto;
   padding: 0 8px;
   border: none;
@@ -21,6 +22,7 @@ article{
 }
 
 .article-intro {
+  top: 300px;
   padding: 50px;
   text-align: center;
 }
@@ -63,6 +65,7 @@ body{
   scroll-behavior: smooth;
 }
 .card {
+  top: 300px;
   border-style: groove;
   width: 95%;
   margin: 0 auto;
@@ -86,6 +89,7 @@ body{
   float: right;
 }
 .scrollContainer{
+  top: 300px;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -106,6 +110,7 @@ body{
   }
 }
 .reviews{
+  top: 300px;
   position: relative;
 
 }
@@ -188,6 +193,7 @@ iframe {
   }
 
 .btnL{
+    top: 300px;
     position: relative;
     font-size: 1.875rem;
     font-family: 'Times New Roman', Times, serif; 
@@ -206,11 +212,6 @@ iframe {
     font-size: large;
     margin-bottom: 2px;
   }
-  .btnL > #product-component-1699323613648 > .shopify-buy-frame--product {
-    width: 100%;
-    display: block;
-  }
-
   .btnL button:nth-child(4){
     will-change: transform;
     color: aliceblue;
@@ -319,6 +320,7 @@ figure:nth-child(9) {
  /*newSection div*/
 
     .newSec {
+      top: 300px;
       width: 100%;
       height: 300px;
       overflow-x: scroll;
@@ -389,12 +391,14 @@ figure:nth-child(9) {
   }
 
  .border {
+    top: 300px;
     width: 100%;
     height: 7px;
     background-color: #000000aa;
   }
 
   .footer {
+    top: 300px;
     width: 100%;
     height: 200px;
     position: relative;
