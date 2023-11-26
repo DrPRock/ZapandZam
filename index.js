@@ -57,7 +57,8 @@ window.addEventListener("scroll", function() {
 });
 
 /*<![CDATA[*/
-                                       
+
+
 
 (function () {
   var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
@@ -84,8 +85,8 @@ window.addEventListener("scroll", function() {
     });
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('product', {
-        id: '8224901890306',
-        node: document.getElementById('product-component-1699824548690'),
+        id: '8253266624770',
+        node: document.getElementById('product-component-1700973795879'),
         moneyFormat: '%24%7B%7Bamount%7D%7D',
         options: {
   "product": {
