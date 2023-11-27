@@ -64,6 +64,56 @@ body{
   padding: 0;
   scroll-behavior: smooth;
 }
+.btnL{
+    top: 300px;
+    position: relative;
+    font-size: 1.875rem;
+    font-family: 'Times New Roman', Times, serif; 
+    width: 100%;    
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .btnL button{
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition-duration: 0.3s;
+    height: 4.375rem;
+    width: 20rem;
+    border-radius: 45%;
+    color: black;
+    font-size: large;
+    margin-bottom: 2px;
+    border: none;
+  }
+  .btnL button:nth-child(4){
+    will-change: transform;
+    color: aliceblue;
+    background-color: rgba(134, 0, 0, 0.893);
+}
+  .btnL button:nth-child(6){
+    will-change: transform;
+    background-color: rgb(255, 0, 0);
+}
+  .btnL button:nth-child(7){
+    will-change: transform;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+  .btnL button:nth-child(1){
+    will-change: transform;
+    background-color: gold;
+}
+   .btnL button:nth-child(3){
+    will-change: transform;
+    background-color: silver;
+}
+ .btnL button:hover{
+    transition:transform 5.5s ease-in 3s;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.665);
+    box-shadow:0px 0px 50px 25px #c369ff8f inset;
+  }
 .card {
   top: 300px;
   border-style: groove;
@@ -191,64 +241,6 @@ iframe {
       text-shadow: 0 0 20px #fff, 0 0 30px #fff, 0 0 40px fuchsia, 0 0 70px fuchsia, 0 0 80px fuchsia, 0 0 100px fuchsia, 0 0 150px fuchsia, 0 0 200px fuchsia;
     }
   }
-
-.btnL{
-    top: 300px;
-    position: relative;
-    font-size: 1.875rem;
-    font-family: 'Times New Roman', Times, serif; 
-    width: 100%;    
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .btnL button{
-    cursor: pointer;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    transform: perspective(150px) rotateY(10deg);
-    transition-duration: 0.3s;
-    height: 4.375rem;
-    width: 20rem;
-    border-radius: 45%;
-    color: black;
-    font-size: large;
-    margin-bottom: 2px;
-  }
-  .btnL button:nth-child(4){
-    will-change: transform;
-    color: aliceblue;
-    background-color: rgba(134, 0, 0, 0.893);
-    border:5px double silver;
-}
-  .btnL button:nth-child(6){
-    will-change: transform;
-    background-color: rgb(255, 0, 0);
-    border: 5px double white;
-}
-  .btnL button:nth-child(7){
-    will-change: transform;
-    background-color: rgb(0, 0, 0);
-    color: white;
-    border: 5px double silver;
-}
-  .btnL button:nth-child(1){
-    will-change: transform;
-    background-color: gold;
-    border: 5px double white;
-}
-   .btnL button:nth-child(3){
-    will-change: transform;
-    background-color: silver;
-    border: 5px double white;
-}
- .btnL button:hover{
-    transform: perspective(150px) rotateY(30deg);
-    transition:transform 5.5s ease-in 3s;
-    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.665);
-    box-shadow:0px 0px 50px 25px #c369ff8f inset;
-  }
-
 .scrollContainer img{
   border-radius: 5px;
   max-width: 300px;
@@ -259,7 +251,6 @@ iframe {
 .css-slideshow{
   flex-basis: 100%;
 }
-
 .css-slideshow figure{
   margin: 0;
   position: absolute;
