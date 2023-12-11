@@ -58,7 +58,10 @@ article{
   transform: perspective(150px) rotateY(30deg);
 }
 body{
-  background-image: radial-gradient(#8c775e5d ,#05f2dab4 ,#05aff282,#056cf284,#020f598a);
+  background-image: url("Photos/cool-background.png");
+  background-repeat:  repeat-y;
+  background-position: center top;
+  background-size: cover;
   width: 100%;
   margin: 0;
   padding: 0;
