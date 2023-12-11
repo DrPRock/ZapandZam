@@ -58,7 +58,7 @@ article{
   transform: perspective(150px) rotateY(30deg);
 }
 body{
-  background-image: url("Photos/cool-background.svg");
+  background-image: url("Photos/cool-background.png");
   background-repeat:  repeat-y;
   background-position: center top;
   background-size: contain;
