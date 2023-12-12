@@ -58,8 +58,8 @@ article{
   transform: perspective(150px) rotateY(30deg);
 }
 body{
-  background-image: url("Photos/cool-background.png");
-  background-repeat:  repeat-y;
+  background-image: url("Photos/Pattern 42_20231211_180946.jpeg");
+  background-repeat:  repeat;
   background-position: center top;
   background-size: contain;
   width: 100%;
