@@ -307,6 +307,7 @@ figure:nth-child(9) {
       overflow-y: hidden;
       scroll-snap-type: x mandatory; 
       position: relative;
+      margin-bottom: 6px;
     }
     .newSec::-webkit-scrollbar {
       display: none;
