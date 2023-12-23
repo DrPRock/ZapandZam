@@ -314,6 +314,7 @@ figure:nth-child(9) {
     }
     
     .newChild {
+      border-radius: 8px;
       width: 300px;
       height: 300px;
       display: inline-block;
@@ -322,6 +323,7 @@ figure:nth-child(9) {
     .newChild > img {
       border-radius: 8px;
       width: 300px;
+      height: 300px;
     }
   .newChild > img:Hover {
       cursor: pointer;
