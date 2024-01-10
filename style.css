@@ -340,6 +340,18 @@ figure:nth-child(9) {
       color: beige;
       z-index: 1;
     }
+
+    .overlay-text {
+      position: absolute; 
+      top: 10%px;
+      left: 5px;
+      color: rgb(0, 0, 0);
+      background-color: rgba(255, 255, 255, 0.271);
+      padding: 10px;
+      border-radius: 50%;
+      font-size: smaller;
+    }
+
     .view-all {
       width: 300px;
       height: 300px;
