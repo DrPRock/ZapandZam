@@ -314,6 +314,7 @@ figure:nth-child(9) {
     }
     
     .newChild {
+      position: relative;
       border-radius: 8px;
       width: 300px;
       height: 300px;
@@ -341,7 +342,7 @@ figure:nth-child(9) {
       z-index: 1;
     }
 
-    .overlay-text {
+    .newChild > .overlay-text {
       position: absolute; 
       top: 10%px;
       left: 5px;
