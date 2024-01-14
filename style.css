@@ -59,7 +59,7 @@ article{
   transform: perspective(150px) rotateY(30deg);
 }
 body{
-  background-image: url("Photos/Pattern 1_20231212_222127.png");
+  background-image: url("Photos/Pattern 22_20240113_215415.jpeg");
   background-repeat:  repeat;
   background-position: center top;
   background-size: contain;
@@ -121,7 +121,7 @@ body{
 .card {
   top: 300px;
   border-style: groove;
-  width: 95%;
+  width: 80%;
   margin: 3px auto;
   padding: 0 3px;
   border-radius: 2px;
