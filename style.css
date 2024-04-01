@@ -60,6 +60,7 @@ article{
 }
 body{
   background-image: url("Photos/Pattern 22_20240113_215415.jpeg");
+  background-color: rgba(0, 0, 0, 0.1); /* Adjust alpha value for transparency */
   background-repeat:  repeat;
   background-position: center top;
   background-size: contain;
