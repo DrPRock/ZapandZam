@@ -425,3 +425,8 @@ video {
   margin: 0 auto;
 }
 
+@media (min-width: 768px) {
+video {
+  width: 300px;
+  height: 300px;
+}}
