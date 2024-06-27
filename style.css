@@ -419,3 +419,9 @@ figure:nth-child(9) {
   text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px magenta, 0 0 70px magenta, 0 0 80px magenta, 0 0 100px magenta, 0 0 150px magenta;
   letter-spacing: .1875rem;
 }
+video {
+  top: 300px;
+  display: block;
+  margin: 0 auto;
+}
+
