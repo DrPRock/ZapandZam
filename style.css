@@ -186,6 +186,9 @@ body{
         background-position: 0% 50%;
     }
 }
+.image-172 {
+  transform: translate(-10%, 50%);
+}
 .labels {
   background-color: #ccd8f1e7;
         }
