@@ -186,6 +186,9 @@ body{
         background-position: 0% 50%;
     }
 }
+.labels {
+  background-color: #ccd8f1e7;
+        }
 .header h2{
     animation:newspaper 2s ease 1s 1 normal;  }
     @keyframes newspaper {
@@ -247,9 +250,6 @@ h2{
   top: 0px;
   max-height: 300px;
   max-width: 300px;
-}
-.image-172 {
-  transform: translate(-10%, 33%);
 }
 figure:nth-child(1) {
   animation: xfade 54s 48s infinite;
