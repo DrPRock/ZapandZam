@@ -130,7 +130,6 @@ body{
   flex-basis: 95%;
   flex-grow: 1;
   flex-direction: column;
-  background-color: #ccd8f1e7;
 }
 @media (min-width: 768px) {
   .card {
