@@ -19,39 +19,10 @@ imgElements.forEach(img => {
     window.open(url, '_blank');
   });
 });
-//bottom images
-  const container = document.querySelector('.scrollContainer')
-
-      function getRandNum(){
-        return Math.floor(Math.random() * 601)
-      }
-      
-      function loadImages(numImages = 20){
-        let i = 0;
-        while(i < numImages){
-          const img = document.createElement('img')
-          img.src = 'pics/' + getRandNum() + '.jpg'
-          container.appendChild(img)
-          i++
-        }
-      }
-      loadImages()
- //listen for scroll
-      
-    let debounceTimeoutId;
-
-
-    window.addEventListener('scroll', () => {
-       clearTimeout(debounceTimeoutId);
-       debounceTimeoutId = setTimeout(() => {
-        if ((window.scrollY + window.innerHeight) >= (document.documentElement.scrollHeight * 0.95)) {
-      loadImages();
-    }
-  }, 2);
-}, { passive: true });
 
 // Parallax effect
 window.addEventListener("scroll", function() {
   var y = window.scrollY;
   document.querySelector(".css-slideshow").style.transform = "translateY(" + y * -0.5 + "px)";
 });
+
