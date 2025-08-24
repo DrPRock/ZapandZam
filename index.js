@@ -26,3 +26,19 @@ window.addEventListener("scroll", function() {
   document.querySelector(".css-slideshow").style.transform = "translateY(" + y * -0.5 + "px)";
 });
 
+// The JavaScript part to create the seamless loop
+  document.addEventListener("DOMContentLoaded", function() {
+    const scroller = document.querySelector(".scroller__inner");
+    const scrollerContent = Array.from(scroller.children);
+
+  // This is the key part: we clone the items and append them to the scroller.
+  // This creates a duplicated list of items, which is what allows the seamless loop.
+  // The CSS animation scrolls the first half, and by the time it's done,
+  // the second (cloned) half is in place, and the animation resets.
+    scrollerContent.forEach(item => {
+        const duplicatedItem = item.cloneNode(true);
+        // We add an attribute to the cloned items to hide them from screen readers.
+        duplicatedItem.setAttribute("aria-hidden", true);
+        scroller.appendChild(duplicatedItem);
+    });
+});
